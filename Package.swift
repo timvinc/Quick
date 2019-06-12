@@ -4,7 +4,7 @@ import PackageDescription
 
 let package = Package(
     name: "Quick",
-    platforms: [
+    _platforms: [
         .macOS(.v10_10), .iOS(.v8), .tvOS(.v9)
     ],
     products: [
